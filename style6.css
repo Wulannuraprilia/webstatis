@@ -86,29 +86,7 @@ table {
    background-color: black;
 }
 
-/*media query*/
-/*laptop*/
-@media (max-width:992px){}
-
-   /*tablet*/
-   @media (max-width:768px){
-       html{ font-size: 85%;}
-       iframe{
-         height: auto;
-         width: auto;
-     }
-     img {
-      height: auto;
-      width: auto;
-     }
-   .back {
-      background-size: cover;
-      padding-top: 2%;
-      padding-bottom: 40%;
-      background-attachment: fixed;
-}
-   }
-   
+/*media query*/   
    /*mobile phone*/
    @media (max-width:576px){
        html{ font-size: 85%;}
@@ -117,10 +95,11 @@ table {
            width: auto;
        }
        img {
-         height: auto;
-         width: auto;
+         height: 250;
+         width: 400;
         }
      .back {
+   background-image: url(images/nak.jpg);     
    background-size: cover;
    padding-top: 2%;
    padding-bottom: 40%;
