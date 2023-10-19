@@ -98,10 +98,15 @@ table {
          width: auto;
      }
      img {
-      height: 250;
-      width: 400;
+      height: auto;
+      width: auto;
      }
-
+   .back {
+      background-size: cover;
+      padding-top: 2%;
+      padding-bottom: 40%;
+      background-attachment: fixed;
+}
    }
    
    /*mobile phone*/
@@ -112,11 +117,17 @@ table {
            width: auto;
        }
        img {
-         height: 250;
-         width: 400;
+         height: auto;
+         width: auto;
         }
-     
+     .back {
+   background-size: cover;
+   padding-top: 2%;
+   padding-bottom: 40%;
+   background-attachment: fixed;
+}
    }
+
    
 
 
